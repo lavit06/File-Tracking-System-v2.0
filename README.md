@@ -17,7 +17,7 @@ Clone the repository Or Download the latest release
    ```
 
 ### Latest Release 
-https://github.com/algobasket/File-Tracking-System-v2.0/releases   
+https://github.com/algobasket/File-Tracking-System-v2.0/releases    
 
 ### 1. Put IP in .env file
 ### 2. Replace local domain in `nginx.config` and `.env` file
@@ -27,6 +27,27 @@ https://github.com/algobasket/File-Tracking-System-v2.0/releases
 
 
 ## Installation
+1. Run MySQL Server (for local development) 
+2. Installing locally for development mode
+    ```shell
+    > cd File-Tracking-System-v2.0
+    File-Tracking-System-v2.0> python manage.py runserver
+    ```
+3. Installing locally for development mode using virtual environment 
+    - Windows 
+    ```shell
+    > python3 -m venv myenv
+    > myenv\Scripts\activate
+    (env) > cd File-Tracking-System-v2.0
+    (env) File-Tracking-System-v2.0> python manage.py runserver
+    ```
+    - Linux 
+    ```shell
+    > python3 -m venv myenv
+    > source myenv/bin/activate
+    (env) > cd File-Tracking-System-v2.0
+    (env) File-Tracking-System-v2.0> python manage.py runserver
+    ```
 
 ### Windows Installation
 1. Open PowerShell with administrative privileges.
@@ -72,6 +93,10 @@ https://github.com/algobasket/File-Tracking-System-v2.0/releases
 ### LAN Access
 - App: `http://LAN-IP.lan/` 
 - PhpMyAdmin: `http://LAN-IP.lan:8080/`
+
+### Local Access
+- App: `http://localhost:8000` 
+- PhpMyAdmin: `http://localhost/phpmyadmin` 
 
 ## Conclusion
 The GMS - File Tracking System offers a comprehensive solution for managing file sharing, approval, and access within an organization. With straightforward setup and installation instructions, the system can be deployed on both Windows and Linux platforms. Ensure proper configuration of your .env file for your specific environment, and experience seamless file management with GMS.
