@@ -1,13 +1,11 @@
-# File-Tracking-System-v2.0
-# GMS - File Tracking System + Noting System
+#File Tracking system
 
-![Logo](https://github.com/algobasket/File-Tracking-System/blob/main/staticfiles/images/logo.png)
 
 ## Description
 
-**GMS - File Tracking System** is a robust platform designed for organizations to manage file sharing, forwarding, approval, and access across different roles, including Admin, Dakghar (file uploader), GMS, GM (General Manager), CO, DO, HOS, and more. The system enables hierarchical file forwarding among these roles and is built using the Django framework.
+**File Tracking System** is a robust platform designed for organizations to manage file sharing, forwarding, approval, and access across different roles, including Admin, Dakghar (file uploader), GMS, GM (General Manager), CO, DO, HOS, and more. The system enables hierarchical file forwarding among these roles and is built using the Django framework.
 
-**GMS - Noting System** complements the File Tracking System by allowing users to upload noting documents alongside Dak documents, apply digital signatures, and forward them through various user roles, ensuring secure and organized document management. This system is also developed using Django.
+** Draft System** complements the File Tracking System by allowing users to upload noting documents alongside Dak documents, apply digital signatures, and forward them through various user roles, ensuring secure and organized document management. This system is also developed using Django.
 
 ## Setup Instructions 
 
